@@ -5,6 +5,7 @@ import { IKnowledge } from '../../interface/knowledge.interface';
 
 @Component({
   selector: 'app-knowledge',
+  standalone: true,
   imports: [],
   templateUrl: './knowledge.html',
   styleUrl: './knowledge.css',
